@@ -1,5 +1,11 @@
 import React from 'react';
 import {View, StyleSheet, Button, Text} from 'react-native';
+import {authNavigation} from '../constants';
+
+export type AuthStackParamList = {
+  [authNavigation.AUTH_HOME]: undefined;
+  [authNavigation.LOGIN]: undefined;
+};
 
 function LoginScreen({navigation}: any) {
   return (
