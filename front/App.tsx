@@ -1,8 +1,8 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+
 import RootNavigator from './src/navigators/root/RootNavigator';
-import AuthStackNavigator from './src/navigators/stack/AuthStackNavigator';
+import {StyleSheet} from 'react-native';
 
 function App() {
   return (
